@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def convertToBrainfuck(text):
+def textToBrainfuck(text):
     brainfucked = ''
     # Move pointer to byte 1
     brainfucked += '>'
@@ -11,9 +11,3 @@ def convertToBrainfuck(text):
         brainfucked += '>'
     
     return brainfucked
-
-def brainfuckToWhitespace(brainfucked):
-    pass
-
-text = input()
-convertToBrainfuck(text)
