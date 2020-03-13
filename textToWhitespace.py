@@ -17,3 +17,5 @@ def textToWhitespace(text):
     
     program += endProgram()
     return program
+
+print (textToWhitespace(input()))

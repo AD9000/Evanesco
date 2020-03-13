@@ -11,3 +11,5 @@ def textToBrainfuck(text):
         brainfucked += '>'
     
     return brainfucked[:-1]
+
+print (textToBrainfuck(input()))
