@@ -10,4 +10,4 @@ def textToBrainfuck(text):
         # This is me being lazy and abusing memory hahahahahaha
         brainfucked += '>'
     
-    return brainfucked
+    return brainfucked[:-1]
